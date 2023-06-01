@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 const Projects = () => {
 
     const Odyssey =[
-        { url: "http://localhost:5173/Odyssey/home_1.png", title: "home_page" },
+        { url: "https://hamza-e-dev.netlify.app/Odyssey/home_1.png", title: "home_page" },
         { url: "http://localhost:5173/Odyssey/home_2.png", title: "home_page" },
         { url: "http://localhost:5173/Odyssey/home_3.png", title: "home_page" },
         { url: "http://localhost:5173/Odyssey/blog_1.png", title: "blog_page" },
