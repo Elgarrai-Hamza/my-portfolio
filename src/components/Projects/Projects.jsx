@@ -6,35 +6,35 @@ const Projects = () => {
 
     const Odyssey =[
         { url: "https://hamza-e-dev.netlify.app/Odyssey/home_1.png", title: "home_page" },
-        { url: "http://localhost:5173/Odyssey/home_2.png", title: "home_page" },
-        { url: "http://localhost:5173/Odyssey/home_3.png", title: "home_page" },
-        { url: "http://localhost:5173/Odyssey/blog_1.png", title: "blog_page" },
-        { url: "http://localhost:5173/Odyssey/resources_1.png", title: "recources_page" },
-        { url: "http://localhost:5173/Odyssey/destination_1.png", title: "destination_page" },
-        { url: "http://localhost:5173/Odyssey/about_1.png", title: "about_page" },
+        { url: "https://hamza-e-dev.netlify.app/Odyssey/home_2.png", title: "home_page" },
+        { url: "https://hamza-e-dev.netlify.app/Odyssey/home_3.png", title: "home_page" },
+        { url: "https://hamza-e-dev.netlify.app/Odyssey/blog_1.png", title: "blog_page" },
+        { url: "https://hamza-e-dev.netlify.app/Odyssey/resources_1.png", title: "recources_page" },
+        { url: "https://hamza-e-dev.netlify.app/Odyssey/destination_1.png", title: "destination_page" },
+        { url: "https://hamza-e-dev.netlify.app/Odyssey/about_1.png", title: "about_page" },
          
       ];
     
     const EMA =[
         
-        { url: "http://localhost:5173/EMA/Details_Admin.png", title: "details_page" },
-        { url: "http://localhost:5173/EMA/Gestion_Salaire_Admin.png", title: "salaire_page" },
-        { url: "http://localhost:5173/EMA/Gestion_Employee_Admin.png", title: "employee_page" },
-        { url: "http://localhost:5173/EMA/Gestion_Pannes_Admin.png", title: "pannes_page" },
-        { url: "http://localhost:5173/EMA/Gestion_Demandes_Admin.png", title: "demandes_page" },
-        { url: "http://localhost:5173/EMA/Gestion_Congés_Admin.png", title: "conges_page" },
-        { url: "http://localhost:5173/EMA/Declare_Panne_Emp.png", title: "declare_page" },
-        { url: "http://localhost:5173/EMA/Taches_EMP.png", title: "taches_page" },
+        { url: "https://hamza-e-dev.netlify.app/EMA/Details_Admin.png", title: "details_page" },
+        { url: "https://hamza-e-dev.netlify.app/EMA/Gestion_Salaire_Admin.png", title: "salaire_page" },
+        { url: "https://hamza-e-dev.netlify.app/EMA/Gestion_Employee_Admin.png", title: "employee_page" },
+        { url: "https://hamza-e-dev.netlify.app/EMA/Gestion_Pannes_Admin.png", title: "pannes_page" },
+        { url: "https://hamza-e-dev.netlify.app/EMA/Gestion_Demandes_Admin.png", title: "demandes_page" },
+        { url: "https://hamza-e-dev.netlify.app/EMA/Gestion_Congés_Admin.png", title: "conges_page" },
+        { url: "https://hamza-e-dev.netlify.app/EMA/Declare_Panne_Emp.png", title: "declare_page" },
+        { url: "https://hamza-e-dev.netlify.app/EMA/Taches_EMP.png", title: "taches_page" },
   
       ];
 
 
       const Cryptonik =[
         
-        { url: "http://localhost:5173/Cryptonik/home-page.png", title: "home-page" },
-        { url: "http://localhost:5173/Cryptonik/home-page2.png", title: "home-page2" },
-        { url: "http://localhost:5173/Cryptonik/page2-header.png", title: "page2-header" },
-        { url: "http://localhost:5173/Cryptonik/page2-body.png", title: "page2-body" },
+        { url: "https://hamza-e-dev.netlify.app/Cryptonik/home-page.png", title: "home-page" },
+        { url: "https://hamza-e-dev.netlify.app/Cryptonik/home-page2.png", title: "home-page2" },
+        { url: "https://hamza-e-dev.netlify.app/Cryptonik/page2-header.png", title: "page2-header" },
+        { url: "https://hamza-e-dev.netlify.app/Cryptonik/page2-body.png", title: "page2-body" },
 
       ];
 
