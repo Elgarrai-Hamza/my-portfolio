@@ -61,3 +61,11 @@ footer{
 
 
 }
+
+
+@media (max-width:576px){
+
+    .footer-container p{
+        max-width: 350px;
+    }
+}
