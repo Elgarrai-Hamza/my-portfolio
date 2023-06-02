@@ -121,25 +121,30 @@ p {
 }
 
 @media (max-width:576px){
+
+    .project-wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 400px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      height: auto;
+      margin-bottom: 1.5rem;
+        
+        
+    }
+    .img-div{
+        width: 380px;
+        height: 200px;
+    }
     .projets-tag{
         
         text-align: center;
         margin-bottom: 2rem;
     }
-    .styled-grid{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        
-    }
-    .slider{
-        width: 360px;
-        height: 200px;
-        margin-bottom: 20px;
-        margin-top: 1rem;
-        
-    }
+
     .project-name{
         margin: auto;
         text-align: center;
