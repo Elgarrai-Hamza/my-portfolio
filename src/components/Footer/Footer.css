@@ -66,6 +66,10 @@ footer{
 
 @media (max-width:576px){
 
+    footer{
+        width: 101%;  
+    }
+   
     .footer-container p{
         max-width: 350px;
     }
