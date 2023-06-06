@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './SvgBackground.css';
 
 const MyComponent = () => {
+
+
+
+
   return (
     <div className="Background__StyledWrapper-zmgvy0-0 gfcMiI">
       <div className="Background__StyledInnerWrapper-zmgvy0-1 hKrMew">

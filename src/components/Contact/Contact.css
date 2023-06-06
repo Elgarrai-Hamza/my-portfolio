@@ -26,6 +26,7 @@ p {
     padding-top: 10px;
     margin-top: 0px;
     margin-bottom: 4rem;
+   
     
 }
 .contact-tag{
@@ -41,6 +42,7 @@ p {
     background-color:rgba(0, 0, 0, 0.725);
     box-shadow: 0 3px 1rem rgba(0,0,0,.1);
     backdrop-filter: blur(4px);
+    border-radius: 1.2rem;
     
 }
 .form-wrapper{

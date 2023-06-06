@@ -1,5 +1,7 @@
 import './Footer.css';
 const Footer = () => {
+
+    const currentDate = new Date().getFullYear();
     return ( 
     <footer>
 
@@ -16,7 +18,7 @@ const Footer = () => {
             </ul>
         </div>
         <div className="footer-bottom">
-            <p> Designed & coded by Hamza Elgarrai </p>
+            <p> Designed & coded by Hamza Elgarrai <span>&copy; {currentDate}</span> </p>
         </div>
 
 

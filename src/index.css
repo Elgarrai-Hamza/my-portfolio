@@ -36,5 +36,13 @@ body{
 @media(max-width:576px){
     .App{
         width: 400px;
+        background-color: #151418;
     }
+}
+
+@media(max-width:900px){
+   .App{
+    background-color: #151418;
+   }
+    
 }
