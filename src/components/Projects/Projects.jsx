@@ -56,7 +56,7 @@ const Projects = () => {
                         </div>
                         <div className="description">
                             <h3 className="project-name">Cryptonik</h3>
-                            <p className="project-description">Cryptonik est une application innovante qui vous permet de rester informé sur les dernières tendances des crypto-monnaies en temps réel. vous pouvez facilement rechercher et accéder à des informations détaillées sur une large gamme de crypto-monnaies.</p>
+                            <p className="project-description">Cryptonik is an innovative app that keeps you informed about the latest crypto-currency trends in real time. you can easily search and access detailed information on a wide range of crypto-currencies.</p>
                             <div className="links">
                             <a href="https://cryptonik-coins.netlify.app" target='_blank' className="link-to">Live Site <i class="uil uil-external-link-alt"></i> </a> 
                             <a href="https://github.com/Elgarrai-Hamza/Cryptonik" target='_blank' className="link-to">Code Source <i className="uil uil-github-alt"></i></a>

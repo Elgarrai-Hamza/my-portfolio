@@ -32,12 +32,14 @@ p {
 }
 .project-wrapper{
     display: flex;
-    background-color: #151418;
+    background-color:rgba(0, 0, 0, 0.725);
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+    backdrop-filter: blur(4px);
     border-radius: 1.7rem;
     padding: 2rem;
     gap: 2rem;
-    margin-bottom: 0.8rem;
-    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+    margin-bottom: 2.3rem;
+    
     height: 28rem;
     
 

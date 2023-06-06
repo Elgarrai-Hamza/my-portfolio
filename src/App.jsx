@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar/Navbar';
-import Background from './components/Background/Background';
+import SvgBackground from './components/SvgDiamondShapes/SvgBackground'
 import AboutMeDetails from './components/AboutMeDetails/AboutMeDetails';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
@@ -15,13 +15,12 @@ function App() {
 
       
       
-      <Background/>
+      <SvgBackground/>
       <Navbar/>
       <AboutMeDetails/>
       <Projects/>
       <Skills/>
       <Contact/>
-
       <Footer/>
       
 
