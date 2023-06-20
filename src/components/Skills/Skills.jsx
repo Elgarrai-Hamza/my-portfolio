@@ -1,12 +1,12 @@
 import './Skills.css';
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 const Skills = () => {
     return ( 
     
         <div className="skills-wrapper">
 
             <h2 className='skills-tag'>Skills</h2>
-            <Slide bottom>
+            <Fade bottom>
             <div className="skills-icons-container">
                 <div className="icon-box">
                      <i className="devicon-react-original colored devicon"></i>
@@ -48,7 +48,7 @@ const Skills = () => {
 
 
 
-            </Slide>
+            </Fade>
             
 
             

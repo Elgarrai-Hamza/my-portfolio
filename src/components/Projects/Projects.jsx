@@ -45,7 +45,7 @@ const Projects = () => {
 
             <h2 className='projets-tag'>Projects</h2>
 
-            <Fade left>
+            <Fade bottom>
 
 
                 <div className="project-wrapper">
@@ -70,7 +70,7 @@ const Projects = () => {
 
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
 
                 <div className="project-wrapper">
                     
@@ -94,7 +94,7 @@ const Projects = () => {
 
             
 
-            <Fade left>
+            <Fade bottom>
  
                 <div className="project-wrapper">
                     

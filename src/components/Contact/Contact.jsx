@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
-import HeadShake from 'react-reveal/HeadShake';
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -33,48 +33,53 @@ const Contact = () => {
         <div className='contact-wrapper'id='contact-point'>
 
             <h2 className='contact-tag'>Contact</h2>
+            <Fade bottom>
+
+
             
-            <div className="flex-dev">
+                <div className="flex-dev">
 
-                <div className="text-wrapper">
-                    <h4>Get In Touch</h4>
-                    <p>I am excited to hear from you and to see if there is an opportunity for us to collaborate and create something remarkable.
-                        If you're interested in learning more about me and what I can bring to the table, feel free to ask for my resume.
-                        To get in touch, simply fill out the form. I eagerly anticipate hearing from you soon!
-                    </p>
+                    <div className="text-wrapper">
+                        <h4>Get In Touch</h4>
+                        <p>I am excited to hear from you and to see if there is an opportunity for us to collaborate and create something remarkable.
+                            If you're interested in learning more about me and what I can bring to the table, feel free to ask for my resume.
+                            To get in touch, simply fill out the form. I eagerly anticipate hearing from you soon!
+                        </p>
 
-                </div>
-                <div className="form-wrapper">
-                    <form ref={form} onSubmit={sendEmail}>
-                    <label>Name</label>
-                    <input type="text" name="user_name" />
-                    <label>Email</label>
-                    <input type="email" name="user_email" />
-                    <label>Message</label>
-                    <textarea name="message" />
+                    </div>
+                    <div className="form-wrapper">
+                        <form ref={form} onSubmit={sendEmail}>
+                        <label>Name</label>
+                        <input type="text" name="user_name" />
+                        <label>Email</label>
+                        <input type="email" name="user_email" />
+                        <label>Message</label>
+                        <textarea name="message" />
 
-                        <Button type="submit" value="Send" variant="contained" endIcon={<SendIcon />} 
-                        sx={{marginTop : '1rem',
-                            background: '#EA2A15',
-                            "&:hover":{backgroundColor:'#EA2A15'},
-                            
-                            }} >
-                        Send
-                        </Button>
-                       
-                
+                            <Button type="submit" value="Send" variant="contained" endIcon={<SendIcon />} 
+                            sx={{marginTop : '1rem',
+                                background: '#EA2A15',
+                                "&:hover":{backgroundColor:'#EA2A15'},
+                                
+                                }} >
+                            Send
+                            </Button>
+                        
+                    
+                        
+
                     
 
-                   
-
+                        
                     
-                   
-                    </form>
-                </div>
+                        </form>
+                    </div>
 
 
 
-            </div>           
+                </div> 
+
+            </Fade>          
 
         </div> 
 
