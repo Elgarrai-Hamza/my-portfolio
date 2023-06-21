@@ -18,10 +18,15 @@ const rightArrowStyles = {
   top: "50%",
   transform: "translate(0, -50%)",
   right: "0px",
-  fontSize: "48px",
+  fontSize: "50px",
   color: "#fff",
   zIndex: 1,
   cursor: "pointer",
+  transition: "color 0.3s", // Add transition property
+  // Add hover styles
+  ":hover": {
+    color: "red",// Define the desired hover color
+  },
 };
 
 const leftArrowStyles = {
@@ -29,7 +34,7 @@ const leftArrowStyles = {
   top: "50%",
   transform: "translate(0, -50%)",
   left: "0px",
-  fontSize: "48px",
+  fontSize: "50px",
   color: "#fff",
   zIndex: 1,
   cursor: "pointer",
@@ -55,17 +60,14 @@ const ImageSlider = ({ slides }) => {
   };
 
 
-
-
-
   return (
     <div style={sliderStyles}>
       <div>
         <div onClick={goToPrevious} style={leftArrowStyles}>
-          ❰
+        <i class="uil uil-angle-left-b"></i>
         </div>
         <div onClick={goToNext} style={rightArrowStyles}>
-          ❱
+        <i class="uil uil-angle-right-b"></i>
         </div>
       </div>
       <LazyLoadImage
