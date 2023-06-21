@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const slideStyles = {
   width: "100%",
@@ -6,6 +8,8 @@ const slideStyles = {
   borderRadius: "10px",
   backgroundSize: "cover",
   backgroundPosition: "center",
+
+  
   
 };
 
@@ -13,8 +17,8 @@ const rightArrowStyles = {
   position: "absolute",
   top: "50%",
   transform: "translate(0, -50%)",
-  right: "32px",
-  fontSize: "45px",
+  right: "0px",
+  fontSize: "48px",
   color: "#fff",
   zIndex: 1,
   cursor: "pointer",
@@ -24,8 +28,8 @@ const leftArrowStyles = {
   position: "absolute",
   top: "50%",
   transform: "translate(0, -50%)",
-  left: "32px",
-  fontSize: "45px",
+  left: "0px",
+  fontSize: "48px",
   color: "#fff",
   zIndex: 1,
   cursor: "pointer",
@@ -49,13 +53,8 @@ const ImageSlider = ({ slides }) => {
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
-  const goToSlide = (slideIndex) => {
-    setCurrentIndex(slideIndex);
-  };
-  const slideStylesWidthBackground = {
-    ...slideStyles,
-    backgroundImage: `url(${slides[currentIndex].url})`,
-  };
+
+
 
 
 
@@ -69,7 +68,15 @@ const ImageSlider = ({ slides }) => {
           ❱
         </div>
       </div>
-      <div style={slideStylesWidthBackground}></div>
+      <LazyLoadImage
+        src={slides[currentIndex].url}
+        alt={`Slide ${currentIndex}`}
+        width="100%"
+        height="100%"
+        style={slideStyles}
+        effect="blur"
+        
+      />
       
       
       
