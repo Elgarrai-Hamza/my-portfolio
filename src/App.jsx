@@ -7,26 +7,31 @@ import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 import './index.css';
 
+
 function App() {
+
+ 
   
   return (
     
     <div className="App">
 
-      
-      
-      <SvgBackground/>
-      <Navbar/>
-      <AboutMeDetails/>
-      <Projects/>
-      <Skills/>
-      <Contact/>
-      <Footer/>
-      
+     
+        <SvgBackground/>
+        <Navbar/>
+        <AboutMeDetails/>
+        <Projects/>
+        <Skills/>
+        <Contact/>    
+        <Footer/>
+        
+
+      </div>
+   
 
    
       
-    </div>
+    
   )
 }
 

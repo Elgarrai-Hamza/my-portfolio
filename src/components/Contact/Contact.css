@@ -112,6 +112,24 @@ form textarea {
 form textarea:focus {
     border: 2px solid #EA2A15;
 }
+form .submitButton{
+    background-color: #EA2A15;
+    color: white;
+    margin-top: 1rem;
+    border-radius: 4px;
+    width: 88px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+
+form .submitButton i {
+   font-size: 18px;
+   margin-left: 6px;
+   
+}
 
 @media (max-width:576px){
     .contact-tag{

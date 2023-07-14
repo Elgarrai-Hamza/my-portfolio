@@ -1,8 +1,6 @@
 import './Contact.css';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import Button from '@mui/material/Button';
-import SendIcon from '@mui/icons-material/Send';
 import Fade from 'react-reveal/Fade';
 
 
@@ -56,14 +54,14 @@ const Contact = () => {
                         <label>Message</label>
                         <textarea name="message" />
 
-                            <Button type="submit" value="Send" variant="contained" endIcon={<SendIcon />} 
-                            sx={{marginTop : '1rem',
-                                background: '#EA2A15',
-                                "&:hover":{backgroundColor:'#EA2A15'},
-                                
-                                }} >
-                            Send
-                            </Button>
+                           
+
+                            <button type="submit" value="Send" className='submitButton'>
+
+                                SEND
+                                <i class="uil uil-message"></i>
+
+                            </button>
                         
                     
                         
