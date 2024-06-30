@@ -1,5 +1,5 @@
 import './AboutMeDetails.css';
-import My_Picture from '../../assets/wallpaperflare.com_wallpaper (11).jpg';
+//import My_Picture from '../../assets/DSC_0022.jpg';
 import Mouse_picture from '../../assets/chevron-force-down.svg';
 
 const AboutMeDetails = () => {
@@ -13,13 +13,8 @@ const AboutMeDetails = () => {
                     <h3 className='job animate__animated animate__fadeInUp  animate__delay-2s'>Software Developer</h3>
                     <p className='about animate__animated animate__fadeInUp  animate__delay-3s'>I consistently produce aesthetically pleasing software of exceptional quality through dedicated practice and ongoing education.</p>
                 </div>
-                <div className="aboutRightSide">
-                    <div className='animate__animated animate__flipInX animate__delay-3s'>
-                        <div className='about-img-wrapper'>
-                            <img src={My_Picture} alt="picture"  className='about-img-styled'/>
-                        </div>
-                    </div>
-                </div>
+              
+
             </div>
             <span className='scroll-down-span'>
                 <img src={Mouse_picture} alt="mouse" className='mouse-img-styled' />
